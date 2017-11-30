@@ -1,0 +1,12 @@
+<p>click on a checkbox to include a section</p>
+
+<div class="toggle-buttons">
+  <input class="graph-toggle" type="checkbox"
+         (click)="setGraphs(g1.checked, g2.checked, g3.checked)"  #g1>Graph 1
+
+  <input class="graph-toggle" type="checkbox"
+         (click)="setGraphs(g1.checked, g2.checked, g3.checked)" #g2>Graph 2
+
+  <input class="graph-toggle" type="checkbox"
+         (click)="setGraphs(g1.checked, g2.checked, g3.checked)" #g3>Graph 3
+</div>
